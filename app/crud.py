@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # app/crud.py
 from sqlalchemy.orm import Session
 from app import models, schemas
@@ -87,6 +88,8 @@ def obtener_estadisticas_globales(db: Session):
         "valor_maximo": valor_maximo
     }
 =======
+=======
+>>>>>>> 22179523fa1522c3e634baeda63fd0eb3f454aa9
 from sqlalchemy.orm import Session
 import models,schemas
 
@@ -121,5 +124,9 @@ lectura.estacion_id).first()
 estacion_id=lectura.estacion_id)
     db.add(nueva_lectura)
     db.commit()
+<<<<<<< HEAD
+    return {"status": "Lectura guardada en DB"}
+>>>>>>> 22179523fa1522c3e634baeda63fd0eb3f454aa9
+=======
     return {"status": "Lectura guardada en DB"}
 >>>>>>> 22179523fa1522c3e634baeda63fd0eb3f454aa9

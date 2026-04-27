@@ -1,7 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 venv/
 __pycache__/
 .env
+=======
+__pycache__/
+*.pyc
+smat.db
+.pytest_cache/
+>>>>>>> 22179523fa1522c3e634baeda63fd0eb3f454aa9
 =======
 __pycache__/
 *.pyc
